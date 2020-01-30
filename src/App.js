@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HelloApp from './HelloApp.js';
 
 function App() {
   return (
     <div className="App">
+      <HelloApp message="This is message sent from App" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
